@@ -1,0 +1,37 @@
+{
+  "anuncios": [
+    {
+      "id": 1624744819600,
+      "titulo": "anuncio",
+      "transaccion": "Venta",
+      "descripcion": "1234modif",
+      "precio": "150000",
+      "puertas": "1",
+      "kilometros": "1",
+      "potencia": "1",
+      "activo": true
+    },
+    {
+      "id": 1624927626093,
+      "titulo": "anuncio",
+      "transaccion": "Alquiler",
+      "descripcion": "1234modif3",
+      "precio": "100",
+      "puertas": "1",
+      "kilometros": "1",
+      "potencia": "1",
+      "activo": true
+    },
+    {
+      "id": 1624928035208,
+      "titulo": "anuncio",
+      "transaccion": "Permuta",
+      "descripcion": "prueba",
+      "precio": "1",
+      "puertas": "5",
+      "kilometros": "5",
+      "potencia": "5",
+      "activo": "1"
+    }
+  ]
+}

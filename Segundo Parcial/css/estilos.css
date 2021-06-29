@@ -1,0 +1,267 @@
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 30%;
+    /* margin-top: 10px; */
+}
+h3{
+  font-family: "Trirong", serif;
+  width: 100%;
+  text-align: center;
+}
+form{
+  width: 100%;
+}
+button>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button>div>img{
+  padding-right: 7px;
+}
+.divCentrar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.divTablaCampos{
+  display: flex;
+  justify-content: space-evenly;
+}
+form> label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+label{
+  font-family: "Trirong", serif;
+}
+form> div>input{
+    display: inline-block;
+    /* margin-left: 15px; */
+ width: 100%;
+ 
+}
+#radio{
+    margin-left: 15px;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.spinner-container{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;   
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .especificaciones{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+  }
+  
+  input[type=text], select , input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ div> input[type=number] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  #submit{
+    width: 100%;
+  }
+
+  .filtros{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+  }
+  .divForm{
+    display: flex;
+     align-items: center; 
+    justify-content: center;
+     min-height: 80vh; 
+    /* height: 800px; */
+    
+  }
+  #divContieneEspecificaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header{
+    background-color: #1E9DC2;
+    display:flex;
+    justify-content: space-around;
+    position: sticky;
+    top:0; 
+    color:white;
+   align-items: center;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 10px 20px;
+    background-color: grey;
+    border:1px solid slateblue;
+    border-radius: 5px; */
+    margin: 5px 10px;
+  }
+  .importante{
+    /* background-color: yellow;
+    border: 1px dashed red; */
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    background-color:#1E9DC2;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5px;
+  }
+  footer p{
+    color: white;
+  }
+
+  .divAviso{
+    color:#f44336;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  }
+  .divAvisoOculto{
+   display: none;
+  }
+  
+  #divSelectFiltro{
+    margin-right: 5px;
+  }
+  .backColor{
+    background-color:#1E9DC2;
+  }
+  .LetraBlanca{
+    color:#ffff;
+  }
